@@ -1,0 +1,84 @@
+.dialog {
+    overflow: auto;
+    position: absolute;
+    background: #fff;
+    top: 10%;
+    bottom: 10%;
+    height: auto;
+    width: 80%;
+    display: none;
+    z-index:1000;
+    border:1px solid #aaa;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+.dialog-header {
+    float: left;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    overflow: hidden;
+    padding:5px;
+    width: 90%;
+}
+.dialog-title {
+    float: left;
+    font-size: 24px;
+    padding-left: 10%;
+    padding-top: 1%;
+}
+.dialog-close{
+    float: right;
+}
+.dialog-close img{
+    float: right;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 8%;
+    top: 8%;
+}
+.dialog-content {
+    position: relative;
+    border: 0;
+    padding: .5em 1em;
+    overflow: auto;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.dialog-info{
+    width: 90%;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 20px;
+}
+.dialog-content video{
+    width: auto;
+    height: auto;
+}
+.dialog-content img{
+    width: auto;
+    height: auto;
+}
+
+.js-sample-open{
+    all: initial;
+}
+.js-sample-open img{
+    width: 50px;
+    height: 50px;
+}
+
+#tools {
+    position: absolute;
+    bottom: 70px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+}
+
+#tools img{
+    width: 70px;
+    height: 70px;
+}

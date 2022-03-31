@@ -1,0 +1,38 @@
+{
+  "spot_id": "id",
+  "name": "外観　最大寸法（W/D/H）",
+  "point_x": 0,
+  "point_y": 0,
+  "rotate": 0,
+  "picture_off": "mae.jpg",
+  "picture_on": "mae.jpg",
+  "min_fov": 50,
+  "max_fov": 120,
+  "initial_fov": 60,
+  "initial_x": 0,
+  "initial_y": 0,
+  "initial_z": 100,
+  "infos": [
+    {
+      "kind": "roof",
+      "icon": "go_to_roof.png",
+      "scale": 50,
+      "x": 350,
+      "y": 100,
+      "z": 0
+    },
+    {
+      "kind": "dialogs",
+      "info_id": "id",
+      "icon": "info.svg",
+      "scale": 10,
+      "x": 0,
+      "y": 0,
+      "z": 100
+    }
+  ],
+  "disables": [
+    "naikan_1",
+    "naikan_2"
+  ]
+}

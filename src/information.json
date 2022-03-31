@@ -1,0 +1,33 @@
+{
+  "name": "表示する名称 型番:",
+  "roof": {
+    "picture_off": "ue.jpg",
+    "picture_on": "ue.jpg",
+    "x": 0,
+    "y": 100,
+    "z": 100,
+    "fov": 60,
+    "min_fov": 30,
+    "max_fov": 150,
+    "infos": [
+      {
+        "kind": "roof",
+        "icon": "go_to_side.svg",
+        "scale": 300,
+        "x": 0,
+        "y": 100,
+        "z": 100
+      }
+    ]
+  },
+  "map": {
+    "image": "map.png",
+    "x": 0,
+    "y": 0,
+    "w": 100,
+    "h": 100
+  },
+  "spots": [
+    "id"
+  ]
+}
